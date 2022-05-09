@@ -11,7 +11,7 @@ function lengthCal() {
     meterCon = meterCon.toFixed(3);
     feetCon = meter * 0.3048
     feetCon = feetCon.toFixed(3);
-    lenEl.textContent = meter + " meters = " + meterCon + " feet | " + meter + " feet = " + feetCon + " meters "
+    lenEl.textContent = `${meter} +  meters =  + ${meterCon} +  feet |  + ${meter} +  feet =  + ${feetCon} +  meters `
 }
 
 lengthCal()
@@ -22,7 +22,7 @@ function volCal() {
     litrCon = litrCon.toFixed(3);
     galCon = vol / 0.264172
     galCon = galCon.toFixed(3);
-    volEl.textContent = vol + " liters = " + litrCon + " gallons | " + vol + " gallons = " + galCon + " liters "
+    volEl.textContent = `${vol} +  liters =  + ${litrCon} +  gallons |  + ${vol} +  gallons =  + ${galCon} +  liters`
 }
 
 volCal()
@@ -33,7 +33,7 @@ function massCal() {
     kilCon = kilCon.toFixed(3);
     poundCon = kil / 2.204622;
     poundCon = poundCon.toFixed(3);
-    massEl.textContent = kil + " liters = " + kilCon + " gallons | " + kil + " gallons = " + poundCon + " liters "
+    massEl.textContent = `${kil} +  liters =  + ${kilCon} +  gallons |  + ${kil} +  gallons =  + ${poundCon} +  liters`
 }
 
 massCal()
